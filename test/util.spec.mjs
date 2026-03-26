@@ -1,12 +1,9 @@
 /*
- * Copyright (C) 2023 Radix IoT LLC. All rights reserved.
+ * Copyright (C) 2026 Radix IoT LLC. All rights reserved.
  */
 
 import { assert } from 'chai';
-import { createRequire } from 'module';
-
-const require = createRequire(import.meta.url);
-const { merge } = require('../src/util');
+import { merge } from '../src/util.js';
 
 describe('Utility functions', function () {
     it('Performs merge correctly', function () {

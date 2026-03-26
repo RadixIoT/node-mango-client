@@ -1,13 +1,13 @@
 {
   "name": "@radixiot/mango-client",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "Mango Automation REST API client",
-  "url": "https://github.com/MangoAutomation/node-mango-client",
+  "url": "https://github.com/RadixIoT/node-mango-client",
   "author": "Jared Wiltshire <jazdw@users.noreply.github.com>",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MangoAutomation/node-mango-client.git"
+    "url": "git+https://github.com/RadixIoT/node-mango-client.git"
   },
   "keywords": [
     "rest",
@@ -22,15 +22,14 @@
     "test-debug": "mocha --inspect-brk"
   },
   "dependencies": {
-    "form-data": "^4.0.4",
+    "form-data": "^4.0.5",
     "moment": "^2.30.1",
-    "moment-timezone": "^0.6.0",
-    "uuid": "^11.1.0",
-    "ws": "^8.18.3"
+    "moment-timezone": "^0.6.1",
+    "uuid": "^13.0.0",
+    "ws": "^8.20.0"
   },
   "devDependencies": {
-    "chai": "^6.0.1",
-    "mocha": "^11.7.1",
-    "serialize-javascript": "^6.0.2"
+    "chai": "^6.2.2",
+    "mocha": "^11.7.5"
   }
 }
