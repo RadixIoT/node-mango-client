@@ -1,6 +1,6 @@
 {
   "name": "@radixiot/mango-client",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "description": "Mango Automation REST API client",
   "url": "https://github.com/RadixIoT/node-mango-client",
   "author": "Jared Wiltshire <jazdw@users.noreply.github.com>",
@@ -18,7 +18,7 @@
   ],
   "main": "src/mangoClient.js",
   "scripts": {
-    "test": "mocha --forbid-only test/*.spec.mjs",
+    "test": "mocha --forbid-only test/*.spec.js",
     "test-debug": "mocha --inspect-brk"
   },
   "dependencies": {
